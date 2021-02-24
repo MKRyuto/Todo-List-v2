@@ -4,7 +4,7 @@ const date = require(__dirname + "/date.js")
 
 const app = express();
 
-const items = ['Playing Arknight', 'Playing Genshin'];
+const items = [];
 const workItems = [];
 
 app.set('view engine', 'ejs');
